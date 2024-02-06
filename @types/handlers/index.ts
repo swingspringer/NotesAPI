@@ -1,0 +1,1 @@
+export { INotesHandler } from './INotesHandler'
