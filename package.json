@@ -13,7 +13,8 @@
   "main": "dist/server.js",
   "scripts": {
     "build": "npm run tsc",
-    "start": "tsc-watch --onSuccess \"nodemon ./dist/server.js\"",
+    "start": "npm run build && node dist/server.js",
+    "dev": "tsc-watch --onSuccess \"nodemon ./dist/server.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc -p tsconfig.json"
   }
