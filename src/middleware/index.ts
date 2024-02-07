@@ -1,0 +1,1 @@
+export { validateNote as NoteValidator } from './NoteValidator'
