@@ -28,7 +28,6 @@ class NotesService implements INotesService {
     }
 
     findById(id: number): Note | undefined {
-        console.log(!this.memory[id])
         if(!this.memory[id]) {
             return undefined
         }
