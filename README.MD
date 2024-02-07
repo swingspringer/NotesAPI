@@ -136,7 +136,7 @@ Would return empty body upon successful delete
 #### Response (404)
 Will return if the noteId is not found
 
-# Architecture decisions
+# Architecture Decisions and Assumptions
 This is an approach with a mixture of my experience with Java and Typescript, but of course following the standards of coding in NodeJS at the same time the design pattern of functional-singleton approach.
 
 The project contains the following folders:
