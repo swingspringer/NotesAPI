@@ -1,1 +1,1 @@
-export { IBaseRouter } from './IBaseRouter'
+export { default as IBaseRouter } from './IBaseRouter'

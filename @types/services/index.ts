@@ -1,1 +1,1 @@
-export { INotesService } from './INotesService'
+export { default as INotesService } from './INotesService'

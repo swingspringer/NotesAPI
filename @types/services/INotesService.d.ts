@@ -1,6 +1,6 @@
 import { Note } from "../models"
 
-export interface INotesService {
+export default interface INotesService {
     createNote: (note: Note) => Note;
     getNotes: (id: Number | undefined) => Note[];
     updateNote: (note: Note) => Note;

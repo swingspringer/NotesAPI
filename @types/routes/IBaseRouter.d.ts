@@ -1,3 +1,3 @@
-export interface IBaseRouter {
+export default interface IBaseRouter {
     routes(): void;
 }

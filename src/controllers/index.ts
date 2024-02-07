@@ -1,0 +1,1 @@
+export { default as NotesController } from './NotesController'
