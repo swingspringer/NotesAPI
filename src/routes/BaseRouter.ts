@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { IBaseRouter } from '../../@types';
+import { IBaseRouter } from '../@types';
 
 export abstract class BaseRouter implements IBaseRouter {
 

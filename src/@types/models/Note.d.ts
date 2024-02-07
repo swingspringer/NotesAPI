@@ -1,5 +1,5 @@
 type Note = {
-    noteId?: Number,
+    noteId?: number,
     note: String
 }
 
