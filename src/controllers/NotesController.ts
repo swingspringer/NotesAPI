@@ -46,8 +46,7 @@ class NotesController {
             return res.status(204).json()
         }catch(e) {
             return res.status(404).json()
-        }    
-        return res.json()
+        }
     };
 
 }
